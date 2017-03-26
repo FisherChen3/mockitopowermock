@@ -31,7 +31,7 @@ public class AuthenticatorApplicationTest2 {
         String username = "fisher";
         String password = "123";
 
-        // condition
+        // condition or so called sub
         when(authenticatorMock.authenticateUser(username, password))
                 .thenReturn(false);
 

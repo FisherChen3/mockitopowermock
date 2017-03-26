@@ -33,6 +33,8 @@ public class SpyExampleTest {
 
         // predefined behavior was defined
         System.out.println(hashMapSpy.get("key"));   // Another value
+
+//        Assert.fail();
     }
 
 }
